@@ -1,0 +1,30 @@
+.btn {
+  display: block;
+  padding: 12px 80px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  color: #444;
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-weight: 700;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  box-shadow: -2px -2px 5px rgba(255, 255, 255, 1),
+    inset 2px 2px 5px rgba(116, 115, 115, 0.5),
+    inset -2px -2px 5px rgba(255, 255, 255, 1),
+    2px 2px 5px rgba(105, 102, 102, 0.5);
+}
+.btn:hover {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.btn:active {
+  box-shadow: 2px 2px 5px rgba(255, 255, 255, 1),
+    inset -2px -2px 5px rgba(116, 115, 115, 0.5),
+    inset 2px 2px 5px rgba(255, 255, 255, 1),
+    -2px -2px 5px rgba(105, 102, 102, 0.5);
+}
